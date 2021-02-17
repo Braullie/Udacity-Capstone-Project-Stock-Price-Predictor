@@ -8,7 +8,7 @@ This is my submission of Udacity's Investment and Trading Capstone Project for t
   - The user can input a date called target_date and the model will output the stock price prediction for that particular date. This works because the model's training and prediction occur at the same time meaning that, whenever a query is made, the model trains itself to fit the characteristics of the query. This means that focus on speed is paramount and some things such as cross validation are not built in. The only requeriment is that this target_date should be greater than another input called end_date which is the final date for which data will be gathered to create the training dataset.
   - Once trained the model be used to predict stock prices on any date between the end_date and the target_date without needing to be retrained. Thus if the end_date was January 1st 2021 and the target_date was March 1st 2021, the model can be used to predict the stock prices at any point between these two dates without needing to be retrained. 
 
-Even with all these features, the use of stablished libraries such as pandas_datareader and tsfresh allows the project to be fast, with a complete pass from input to prediction for 3 stocks on 1 year data taking around 3 minutes to complete.
+Even with all these features, the use of stablished libraries such as pandas_datareader and tsfresh allows the project to be fast, with a complete pass from input to prediction for 3 stocks on 1 year data taking around 3 minutes to complete with most of the time being spent on feautre extraction.
 
 ## This Repository
 
