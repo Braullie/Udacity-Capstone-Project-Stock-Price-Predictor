@@ -33,6 +33,6 @@ The first file holds all the functions written and used in the project. The seco
   - (OPTIONAL) Plot the perfomance of the models on the test set.
   - Predict the stock prices on the target date.
 
-This steps are better understood by looking at the project's general diagram where spl. denotes the stock_predict_lib module. All these steps are written in the file Stock_Price_Prediction_Notebook.ipynb.
+These steps are better understood by looking at the project's general diagram where spl. denotes the stock_predict_lib module. All of them are written in the file Stock_Price_Prediction_Notebook.ipynb.
 
 ![General Diagram](https://user-images.githubusercontent.com/46632664/108224169-9c3f4000-7108-11eb-8ce1-f5f0f5f28af1.png)
