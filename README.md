@@ -14,6 +14,12 @@ The repository holds two files:
   - stock_predict_lib.py
   - Stock_Price_Prediction_Notebook.ipynb
 
-The first file holds all the functions written and used in the project
+The first file holds all the functions written and used in the project. The second file is a notebook showing how to use these function to train the machine learning models and use them to predict the stock prices. The steps a user would follow if he/she wants to use the project are:
+  - Input a list of stock tickers, a start and an end date for the training of the models (This should be sufficiently long. 1-2 years is recommended), and a target date greater than the end_date.
+  - Run the functions belonging to the 'Training Module' (as seen in the diagram below). As of now, the user must run each function separately.
+  - (OPTIONAL) Plot the perfomance of the models on the test set.
+  - Predict the stock prices on the target date.
 
-![alt text](https://github.com/Braullie/Udacity-Capstone-Project-Stock-Price-Predictor/tree/main/readme_res/General Diagram.png?raw=true)
+This steps are better understood by looking at the project's general diagram
+
+![General Diagram](https://user-images.githubusercontent.com/46632664/108224169-9c3f4000-7108-11eb-8ce1-f5f0f5f28af1.png)
