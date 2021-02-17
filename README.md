@@ -39,3 +39,14 @@ The first file holds all the functions written and used in the project. The seco
 These steps are better understood by looking at the project's general diagram where spl. denotes the stock_predict_lib module. All of them are written in the file Stock_Price_Prediction_Notebook.ipynb.
 
 ![General Diagram](https://user-images.githubusercontent.com/46632664/108224169-9c3f4000-7108-11eb-8ce1-f5f0f5f28af1.png)
+
+## Results
+
+The results of the project are dependent on the user's choice of stocks and period to study. However, for model selection purposes, the metric R2 was used. In the example shown in the medium post, the following results were obtained
+
+![r2](https://user-images.githubusercontent.com/46632664/108282486-b51f1400-714f-11eb-915e-f893a2f3e388.PNG)
+
+As it's discussed on the medium article, a model with a R2 metric greater than 95% is chosen as 'ready to use' whereas models with less than 95% are studied on a case by case basis (See the **Evaluation** Discussion on Medium). The predictions for the 3 stocks were done for Febrary 25th 2021, these are shown below
+
+![prediction](https://user-images.githubusercontent.com/46632664/108282540-cd8f2e80-714f-11eb-8892-0aece1f36754.PNG)
+
