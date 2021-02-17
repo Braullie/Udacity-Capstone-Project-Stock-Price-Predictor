@@ -1,7 +1,6 @@
 # Udacity-Capstone-Project-Stock-Price-Predictor
 
 
-
 ## Overview of the Project
 This is my submission of Udacity's Investment and Trading Capstone Project for the Data Scientist Nano Degree. The purpose of this project is to create a easy-to-use python notebook where predictions about stock prices can be made. The main features are:
   - The data for this project is downloaded from Yahoo! Finance using the pandas_datareader library. As such, almost any stock with historical price data that is available on that site can be predicted. The exception being stocks with little history. Also, the user can pass a list of stock tickers (as long as the user wishes) and all of them will be predicted
@@ -9,6 +8,18 @@ This is my submission of Udacity's Investment and Trading Capstone Project for t
   - Once trained the model be used to predict stock prices on any date between the end_date and the target_date without needing to be retrained. Thus if the end_date was January 1st 2021 and the target_date was March 1st 2021, the model can be used to predict the stock prices at any point between these two dates without needing to be retrained. 
 
 Even with all these features, the use of stablished libraries such as pandas_datareader and tsfresh allows the project to be fast, with a complete pass from input to prediction for 3 stocks on 1 year data taking around 3 minutes to complete with most of the time being spent on feautre extraction.
+
+## Libraries Used
+The following libraries were used
+
+  - pandas_datareader
+  - matplotlib
+  - seaborn
+  - pandas
+  - numpy
+  - datetime
+  - tsfresh
+  - sklearn
 
 ## This Repository
 
