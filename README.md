@@ -1,5 +1,7 @@
 # Udacity-Capstone-Project-Stock-Price-Predictor
 
+## Medium Link
+This is the project as seen on Medium https://smurguersons.medium.com/stock-price-prediction-with-python-168925c5ceb7
 
 ## Overview of the Project
 This is my submission of Udacity's Investment and Trading Capstone Project for the Data Scientist Nano Degree. The purpose of this project is to create a easy-to-use python notebook and function module where predictions about stock prices can be made. The main features are:
